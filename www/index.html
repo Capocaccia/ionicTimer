@@ -36,7 +36,7 @@
            <p class="ion-ios-bell-outline"></p>
         </label>
         <div class="display">
-          <h3>{{display}}time</h3>
+          <h3>{{display}}</h3>
         </div>
         <label class="toggle right">
            <input type="checkbox">
@@ -46,46 +46,46 @@
            <p class="ion-android-notifications-off"></p>
         </label>
         <div class="button-bar">
-          <button class="button button-outline button-positive">
+          <button class="button button-outline button-positive" ng-click="update('1')">
             1
           </button>
-          <button class="button button-outline button-positive">
+          <button class="button button-outline button-positive" ng-click="update('2')">
             2
           </button>
-          <button class="button button-outline button-positive">
+          <button class="button button-outline button-positive" ng-click="update('3')">
             3
           </button>
         </div>
           <div class="button-bar">
-            <button class="button button-outline button-positive">
+            <button class="button button-outline button-positive" ng-click="update('4')">
               4
             </button>
-            <button class="button button-outline button-positive">
+            <button class="button button-outline button-positive" ng-click="update('5')">
               5
             </button>
-            <button class="button button-outline button-positive">
+            <button class="button button-outline button-positive" ng-click="update('6')">
               6
             </button>
           </div>
           <div class="button-bar">
-            <button class="button button-outline button-positive">
+            <button class="button button-outline button-positive" ng-click="update('7')">
               7
             </button>
-            <button class="button button-outline button-positive">
+            <button class="button button-outline button-positive" ng-click="update('8')">
               8
             </button>
-            <button class="button button-outline button-positive">
+            <button class="button button-outline button-positive" ng-click="update('9')">
               9
             </button>
           </div>
           <div class="button-bar">
-            <button class="button button-outline button-positive">
+            <button class="button button-outline button-positive" ng-click="update('0')">
               0
             </button>
           </div>
         <div class="button-bar top">
-          <button class="button button-stable icon-center ion-play"></button>
-          <button class="button button-stable icon-center ion-pause"></button>
+          <button class="button button-stable icon-center ion-play" ng-click="play()"></button>
+          <button class="button button-stable icon-center ion-pause" ng-click="pause()"></button>
           <button class="button button-stable icon-center ion-refresh"></button>
         </div>
       </ion-content>
