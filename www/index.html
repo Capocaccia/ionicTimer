@@ -20,14 +20,60 @@
 
     <!-- your app's js -->
     <script src="js/app.js"></script>
+    <script src="js/mainCtrl.js"></script>
   </head>
-  <body ng-app="starter">
-
+  <body ng-app="starter" ng-controller="mainCtrl">
     <ion-pane>
       <ion-header-bar class="bar-stable">
         <h1 class="title">Ionic Blank Starter</h1>
       </ion-header-bar>
       <ion-content>
+        <label class="toggle">
+           <input type="checkbox">
+           <div class="track">
+             <div class="handle"></div>
+           </div>
+        </label>
+        <div>clock goes here</div>
+        <label class="toggle">
+           <input type="checkbox">
+           <div class="track">
+             <div class="handle"></div>
+           </div>
+        </label>
+        <button class="button button-outline button-positive">
+          1
+        </button>
+        <button class="button button-outline button-positive">
+          2
+        </button>
+        <button class="button button-outline button-positive">
+          3
+        </button>
+        <button class="button button-outline button-positive">
+          4
+        </button>
+        <button class="button button-outline button-positive">
+          5
+        </button>
+        <button class="button button-outline button-positive">
+          6
+        </button>
+        <button class="button button-outline button-positive">
+          7
+        </button>
+        <button class="button button-outline button-positive">
+          8
+        </button>
+        <button class="button button-outline button-positive">
+          9
+        </button>
+        <button class="button button-outline button-positive">
+          0
+        </button>
+        <button class="button icon-left ion-play"></button>
+        <button class="button icon-left ion-pause"></button>
+        <button class="button icon-left ion-refresh"></button>
       </ion-content>
     </ion-pane>
   </body>
