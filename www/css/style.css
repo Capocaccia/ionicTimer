@@ -1,1 +1,29 @@
 /* Empty. Add your own CSS if you like */
+.left {
+  position: absolute;
+  top: 50px;
+}
+
+.right {
+  position: absolute;
+  top: 50px;
+  right: 15px;
+
+}
+
+.display {
+  height: 225px;
+  border-radius: 100%;
+  border: solid 1px red;
+  box-sizing: border-box;
+  margin: 20px;
+}
+
+.display h3 {
+  text-align: center;
+  margin-top: 75px;
+}
+
+.top {
+  padding-top: 5px;
+}

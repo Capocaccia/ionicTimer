@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width">
     <title></title>
-
+    <link rel="stylesheet" href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
     <link href="lib/ionic/css/ionic.css" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet">
 
@@ -28,18 +28,22 @@
         <h1 class="title">Ionic Blank Starter</h1>
       </ion-header-bar>
       <ion-content>
-        <label class="toggle">
+        <label class="toggle left">
            <input type="checkbox">
            <div class="track">
              <div class="handle"></div>
            </div>
+           <p class="ion-ios-bell-outline"></p>
         </label>
-        <div>clock goes here</div>
-        <label class="toggle">
+        <div class="display">
+          <h3>{{display}}time</h3>
+        </div>
+        <label class="toggle right">
            <input type="checkbox">
            <div class="track">
              <div class="handle"></div>
            </div>
+           <p class="ion-android-notifications-off"></p>
         </label>
         <div class="button-bar">
           <button class="button button-outline button-positive">
@@ -79,10 +83,10 @@
               0
             </button>
           </div>
-        <div class="button-bar">
-          <button class="button icon-center ion-play"></button>
-          <button class="button icon-center ion-pause"></button>
-          <button class="button icon-center ion-refresh"></button>
+        <div class="button-bar top">
+          <button class="button button-stable icon-center ion-play"></button>
+          <button class="button button-stable icon-center ion-pause"></button>
+          <button class="button button-stable icon-center ion-refresh"></button>
         </div>
       </ion-content>
     </ion-pane>
